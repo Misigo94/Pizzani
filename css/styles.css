@@ -12,8 +12,12 @@ text-align: center;
 color:white;
 height:auto;
 width:100%;
-padding-top:25%;
+padding:25%;
+height:100%;
 }
+/* .nav{
+    padding-top:0px;
+} */
 
 .about {
     background-color:#2B0903;
@@ -30,7 +34,7 @@ img .img-about {
 }
 
 .menu {
-    display: inline-block;
+    display:flex;
     
 }
 
@@ -40,7 +44,7 @@ img .img-about {
     background-size: cover;
     background-position: center;
     color:white;
-    padding:15%;
+    padding:10%;
     text-align: center;
 }
 .btn {
@@ -52,4 +56,5 @@ img .img-about {
 .contacts {
     background-color:#120301 ;
     text-align: center;
+    color:white;
 }
