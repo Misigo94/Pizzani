@@ -1,0 +1,24 @@
+.firstp img {
+    height: 30px;
+    width: 40px;
+}
+
+.welcome {
+background-image: url("../img/back1.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+color:white;
+height:auto;
+width:100%;
+padding-top:25%;
+}
+
+.about {
+    background-image:url("../img/about.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
