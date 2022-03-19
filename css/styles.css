@@ -16,9 +16,40 @@ padding-top:25%;
 }
 
 .about {
-    background-image:url("../img/about.jpg");
-    background-size: cover;
+    background-color:#2B0903;
+    color:white;
+    text-align: center;
     background-position:center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     
+}
+
+img .img-about {
+    display: inline-block;
+
+}
+
+.menu {
+    display: inline-block;
+    
+}
+
+.order {
+    background-image:url("../img/back2.jpg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding:15%;
+    text-align: center;
+}
+.btn {
+    color:antiquewhite;
+    background-color: #2B0903;
+    margin-top: 20px;
+}
+
+.contacts {
+    background-color:#120301 ;
+    text-align: center;
 }
