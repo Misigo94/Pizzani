@@ -13,10 +13,16 @@
 </head>
 <body>
 
-    <section class="welcome">
+    <section class="welcome" id="welcome">
         <h1>WELCOME TO PIZZANI</h1>
          <p>Karibu sana here for some goood pizza?</p><br>
         <p>You have come to the right place</p>
+        <p>CLICK THE BUTTON BELOW TO MAKE AN ORDER</p>
+
+        <div class="mouse-click">
+            <a href="#order"><img src="img/mouse_click.png" alt=" mouse_click" id="mouse-click"></a>
+        </div>
+        </div>
     </section>
     
     <section class="about">
@@ -29,44 +35,10 @@
             We are located in Ngong road feel free to stop by for some pizza
         </p>
     </section>
-    <!-- <section class="menu">
-        <h2>OUR MENU</h2>
-        <div class="firstp">
-            <img src="img/pizza1.jpg"  width="200" height="200" alt="">
-            <p>peporini pizza</p>
-        </div>
 
-        <div class="secondp">
-            <img src="img/pizza2.jpg" alt="" width="200" height="200">
-            <p>delux pizza</p>
-        </div>
-
-        <div class="thirdp">
-            <img src="img/pizza3.jpg" alt="" width="200" height="200">
-            <p>vegetarian pizza</p>
-        </div>
-    </section> -->
-
-    <section class="order">
-        <h2>MAKE YOUR ORDER HERE</h2><br>
-        <!-- <div class="orderCalculation">
-            <h2>Your Order Summary</h2>
-            <p  id="pizzaShow"></p>
-            <p id="pizzaCrustShow"></p>
-            <p id="pizzaToppingsShow"></p>
-            <p class="pizzaNumber"></p>
-            <p id="totalChargesShow"></p>
-            <p id="demo"></p>
-
-        </div> -->
+    <section class="order" id="order">
       <form id="myForm" action="">
-          <!-- <label for="select">Select your flavour</label>
-          <select class="browser-default custom-select custom-select-md mb-3" id="flavour" required>
-              <option value="0">Size</option>
-              <option value="Peporini">Peporini </option>
-              <option value="Periperi pizza">Periperi pizza</option>
-              <option value="Vegeterian pizza">Vegeterian pizza</option>
-          </select><br> -->
+        <h2>MAKE YOUR ORDER HERE</h2><br>
 
         <label for="size">Select size</label>
         <select class ="browser-default custom-select custom-select-md mb-3" id="pizzaSize" required>
@@ -120,6 +92,7 @@
         <p id="demo"></p>
 
     </div>
+    <a href="#welcome"><img src="img/mouse_click.png" alt=" mouse_click" id="mouse-click"></a>
 
     <!-- <div class="modal-bg">
         <div class="modal">
