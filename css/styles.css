@@ -47,18 +47,84 @@ img .img-about {
     padding:10%;
     text-align: center;
 }
-.btn {
-    color:antiquewhite;
-    background-color: #2B0903;
+#orderButton{
     margin-top: 20px;
+    padding: 5px;
+    
+    
 }
 
+.orderCalculation {
+    padding: 20px;
+ margin: 0px auto;
+ background-color: rgb(39, 10, 4);
+ color:white;
+ border-radius: 4px;
+ /* box-shadow: 0px 0px 10px rgb(219, 22, 48); */
+ opacity:0.9;
+ width: 30%;
+ height: 400px;
+ top: 15vh;
+ right: 15%;
+ left: 60%;
+ /* z-index: 4;   */
+ /* display: none; */
+ font-size: 25px;
+ margin-top: 20px;
+
+
+}
 .contacts {
     background-color:#120301 ;
     text-align: center;
     color:white;
 }
 
-#hidden {
+.locationArea {
     visibility: hidden;
+}
+
+.modal-bg {
+    position: fixed;
+    top:0;
+    width:100%;
+    height:100vh;
+    background-color: black 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* visibility: hidden; */
+    opacity:0;
+}
+
+.modal {
+    background-color:#120301;
+    width:30%;
+    height:20%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-button {
+    width:30%;
+    height:30%;
+    display:flex;
+}
+
+.bg-active {
+    visibility: visible;
+    opacity:1;
+}
+
+.modal-close {
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+#myForm {
+    background-color:#2B0903;
+    opacity:0.8;
 }
