@@ -15,13 +15,10 @@ function PizzaSelection(pizzaSizePrize,crustOptionPrize,toppingsSelectionPrize, 
     this.deliveryOption = deliveryOption;
 }
 
-// PizzaSelection.prototype.CustomerOrderBill = function() {
-//     return(this.numberOfPizzaPrize*(this.pizzaSizePrize+this.toppingsSelectionPrize+this.crustOptionPrize)+this.deliveryOption);
-// }
-
-function CustomerOrderBill(){
-    return(this.numberOfPizzaPrize*(this.pizzaSizePrize+this.toppingsSelectionPrize+this.crustOptionPrize))+this.deliveryOption
+PizzaSelection.prototype.CustomerOrderBill = function() {
+    return(this.numberOfPizzaPrize*(this.pizzaSizePrize+this.toppingsSelectionPrize+this.crustOptionPrize)+this.deliveryOption);
 }
+
 
 PizzaSelection.prototype.totalCharges
 
@@ -106,7 +103,7 @@ $(document).ready(function(){
                 $("#pizzaCrustShow").text("Crust: " + crustOption);
                 $("#pizzaToppingsShow").text("Toppings: "+toppingSelection);
                  $(".pizzaNumber").text("Number of Pizza: "+numberOfPizza);
-                  $("#totalChargesShow").text("Total Charges: "+newPizzaSelection.customerOrderBill());
+                  $("#totalChargesShow").text("Total Charges: "+newPizzaSelection.customerOrderBill);
             });
     });
 });
